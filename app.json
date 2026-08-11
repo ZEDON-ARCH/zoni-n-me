@@ -1,0 +1,70 @@
+{
+  "expo": {
+    "name": "Agon Preview",
+    "slug": "agon-preview",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#3B82F6"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "app.younme.chat",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSCameraUsageDescription": "you 'n me needs camera access to take photos and videos.",
+        "NSPhotoLibraryUsageDescription": "you 'n me needs photo library access to save and share images.",
+        "NSMicrophoneUsageDescription": "you 'n me needs microphone access for voice messages and calls.",
+        "NSLocationWhenInUseUsageDescription": "you 'n me uses your location for sharing and discovery."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#3B82F6",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "app.younme.chat",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.INTERNET",
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.VIBRATE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "552f0665-e30d-4f11-9ea9-97bc22a22809"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/552f0665-e30d-4f11-9ea9-97bc22a22809"
+    },
+    "owner": "arcadalabs",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ]
+  }
+}
