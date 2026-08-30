@@ -23,7 +23,8 @@
         "NSPhotoLibraryUsageDescription": "you 'n me needs photo library access to save and share images.",
         "NSMicrophoneUsageDescription": "you 'n me needs microphone access for voice messages and calls.",
         "NSLocationWhenInUseUsageDescription": "you 'n me uses your location for sharing and discovery."
-      }
+      },
+      "ITSAppUsesNonExemptEncryption": false
     },
     "android": {
       "adaptiveIcon": {
