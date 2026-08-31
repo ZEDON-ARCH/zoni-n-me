@@ -6,11 +6,6 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#3B82F6"
-    },
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -23,15 +18,12 @@
         "NSPhotoLibraryUsageDescription": "you 'n me needs photo library access to save and share images.",
         "NSMicrophoneUsageDescription": "you 'n me needs microphone access for voice messages and calls.",
         "NSLocationWhenInUseUsageDescription": "you 'n me uses your location for sharing and discovery."
-      },
-      "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#3B82F6",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "foregroundImage": "./assets/android-icon-foreground.png"
       },
       "package": "app.younme.chat",
       "versionCode": 1,
