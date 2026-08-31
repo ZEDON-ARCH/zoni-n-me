@@ -6,9 +6,12 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#3B82F6"
+    },
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "app.younme.chat",
@@ -42,17 +45,25 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow you 'n me to access your camera."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow you 'n me to use your location."
+        }
+      ]
+    ],
     "extra": {
       "eas": {
         "projectId": "8242b5c6-e9d0-49cd-8844-955cc2e09ff7"
       }
     },
-    "preview": {
-      "android": {
-        "buildType": "apk"
-      },
-     "distribution": "internal"
-    }
     "runtimeVersion": {
       "policy": "appVersion"
     },
@@ -60,10 +71,6 @@
       "url": "https://u.expo.dev/8242b5c6-e9d0-49cd-8844-955cc2e09ff7"
     },
     "owner": "zedonx",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ]
+    "platforms": ["ios", "android", "web"]
   }
 }
